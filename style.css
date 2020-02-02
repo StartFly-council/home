@@ -1,0 +1,184 @@
+
+                  /*************************** our events slides *************************/
+#our-event
+{
+  text-align: center;
+  margin-top: 50px; 
+}
+#our-event h2
+{ 
+  border-bottom: 3px solid #3498db;
+  padding-bottom: 8px;
+  text-transform: uppercase;
+  display: inline-block;
+  font-size: 25px;
+  font-weight: bold;
+  width: 200px;
+}
+#only-pic
+{
+  width: 100%;
+  height:auto;
+  background: #e4ebe9 url(images/fancy_deboss.png) repeat top left;
+  overflow: hidden;
+}
+.sliding {
+  position: relative;
+  display:block;
+  margin:0 auto;
+}
+.sliding .next
+{
+  position: absolute;
+  top: 40%;
+  right: 50px;
+  font-size: 2em;
+  color: #006669;
+  cursor: pointer;
+  z-index: 1;
+}
+.sliding .prev
+{
+  position: absolute;
+  top: 40%;
+  left: 50px;
+  font-size: 2em;
+  color: #006669;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.sliding .container
+{
+    height: auto;
+    align-items: center;
+    margin-left: 20px;
+    width: 84%;
+    margin: 0 auto;
+    padding:  12px 20px 10px 20px;
+    overflow: hidden;
+    border:1px solid red;
+    margin-bottom: 60px;
+}
+
+.container .box
+{
+    position: relative;
+    width: 300px;
+    background: #00B894;
+    height: auto;
+    padding: 0px 0px 0px;
+    margin-left: 12px;
+    margin-right: 12px; 
+    box-shadow: -1rem 1rem 1rem -1rem;
+    border-radius: 4px;
+    display: inline-block;
+}
+.container .post-info
+{
+  position: relative;
+}
+.container .box h5
+{
+    position: relative;
+    font-size: 1.2em;
+    text-align: left;
+    padding: 12px;
+    z-index: 2;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.container .box p
+{
+    position: relative;
+    z-index: 2;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 18px;
+    color: #000;
+    padding-bottom: 1px;
+    transition: 0.5s;
+}
+.container .box a
+{
+    position: relative;
+    color: #000;
+    padding-bottom: 1px;
+    transition: 0.5s;
+}
+
+.btn-area
+{
+  padding: .5rem 1rem;
+  color: #fff;
+  border:1px solid #006669;
+  border-radius: .25rem;
+  display: inline-block;
+  height: 25px;
+  font-size: 15px; 
+  position: relative;
+}
+.container .box .read-more
+{
+  position: relative;
+  bottom: 10px;
+  left: 20px;
+  background-color:#009A76 ; 
+  text-decoration: none;
+}
+.container .box .read-more:hover
+{
+  background: #006669;
+  color: #fff;
+
+}
+.btn-area:hover
+{
+  color: #fff;
+  background: #005255;
+}
+.container .box .fa-calendar
+{
+  color: #fff;
+  float: right;
+  right: 1em;
+  position: relative;
+}
+
+.imgbx-1  
+{
+    position: relative;
+    width: 100%;
+    top: 0px;
+    z-index: 1;
+    opacity: 1;
+    transition: 0.5s;
+    border-radius: 4px 4px 0 0;
+}
+
+@media all and (max-width : 600px) 
+{
+     .sliding .container
+    {
+        height: auto;
+        align-items: center;
+        margin-left: 20px;
+        width: 84%;
+        margin: 0 auto;
+        padding:  12px 20px 10px 20px;
+        overflow: hidden;
+        border:1px solid red;
+    }
+    .sliding .next
+    {
+      right: 30px;
+      font-size: 1.8em;
+    }
+    .sliding .prev
+    {
+      left: 30px;
+      font-size: 1.8em;
+    }
+}
+                    /*************************** our events slides *******************************/
